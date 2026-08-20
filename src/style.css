@@ -1,4 +1,49 @@
-:root {
+/* Tag selectors */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Class selectors */
+.form {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* ID selectors */
+#username:focus,
+#password:focus,
+#isAustralian:focus,
+#reason:focus {
+    border-color: #FF6347; /* More obvious border color change (Tomato) */
+    background-color: #FFEBE8; /* Light background color change */
+}
+
+/* Attribute selectors */
+select[id="gender"] {
+    background-color: #d3d3d3; /* Default background color set to gray */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* :root {
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
@@ -293,4 +338,4 @@ code {
     right: 0;
     border-right-color: var(--border);
   }
-}
+} */
